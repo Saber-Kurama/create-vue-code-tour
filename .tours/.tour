@@ -1,0 +1,12 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "构建",
+  "steps": [
+    {
+      "file": "create-vue/scripts/build.mjs",
+      "description": "这里面使用了 esbuild 开始构建",
+      "line": 1
+    }
+  ],
+  "ref": "main"
+}

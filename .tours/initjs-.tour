@@ -1,0 +1,17 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "init.js 源码",
+  "steps": [
+    {
+      "file": "create-vue/index.js",
+      "description": "执行 init 方法\n",
+      "line": 405
+    },
+    {
+      "file": "create-vue/utils/banner.js",
+      "description": "ANSI escape code 的语法\n",
+      "line": 12
+    }
+  ],
+  "ref": "main"
+}
