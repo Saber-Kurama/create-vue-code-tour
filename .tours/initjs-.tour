@@ -3,14 +3,49 @@
   "title": "init.js 源码",
   "steps": [
     {
+      "file": "create-vue/utils/banner.js",
+      "description": "ANSI escape code 的语法\n",
+      "line": 12
+    },
+    {
       "file": "create-vue/index.js",
       "description": "执行 init 方法\n",
       "line": 405
     },
     {
-      "file": "create-vue/utils/banner.js",
-      "description": "ANSI escape code 的语法\n",
-      "line": 12
+      "file": "create-vue/index.js",
+      "description": "参数解析和定义一些别名\n上面的注释就是用到参数",
+      "line": 63
+    },
+    {
+      "file": "create-vue/index.js",
+      "description": "isFeatureFlagsUsed 是否使用 --vitest 这种标签\n\n使用之后 后续 不会在提示",
+      "line": 75
+    },
+    {
+      "file": "create-vue/index.js",
+      "description": "是否要覆盖",
+      "line": 32
+    },
+    {
+      "file": "create-vue/index.js",
+      "description": "最后的参数",
+      "line": 240
+    },
+    {
+      "file": "create-vue/index.js",
+      "description": "文件的处理并创建一个package.json",
+      "line": 252
+    },
+    {
+      "file": "create-vue/utils/renderTemplate.js",
+      "description": "package.json中依赖处理",
+      "line": 35
+    },
+    {
+      "file": "create-vue/utils/renderTemplate.js",
+      "description": "`.` 文件的处理\n",
+      "line": 44
     }
   ],
   "ref": "main"
